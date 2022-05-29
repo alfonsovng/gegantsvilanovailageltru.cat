@@ -24,34 +24,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-#header {
+header {
   height: 80px;
   padding: 20px 0;
   z-index: 10;
   position: relative;
-}
-#header .logo h1 {
-  font-size: 36px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 300;
-  letter-spacing: 3px;
-}
-#header .logo h1 a, #header .logo h1 a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-#header .logo img {
-  padding: 0;
-  margin: 0;
-  max-height: 80px;
-}
-@media (max-width: 768px) {
-  #header .logo h1 {
-    font-size: 28px;
-    padding: 8px 0;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -371,11 +348,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #2e1855;
   background-color: rgba(178, 161, 221, 0.5);
 }
-#hero h2 {
-  color: #333;
-  margin-bottom: 30px;
-  font-size: 24px;
+#hero a {
+  color: #2e1855;
 }
+#hero a:hover {
+  color: #2e1855;
+  text-decoration: none;
+}
+
 @-webkit-keyframes animate-loading-notify {
   0% {
     transform: rotate(0deg);
@@ -425,6 +405,13 @@ h2 {
   font-size: 30px;
   margin-bottom: 20px;
 }
+
+@media (max-width: 576px) {
+  .about img {
+    display:  none;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Why Us
