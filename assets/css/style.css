@@ -406,9 +406,19 @@ h2 {
   margin-bottom: 20px;
 }
 
+.about {
+  background-color: inherit;
+}
+
 @media (max-width: 576px) {
   .about img {
     display:  none;
+  }
+  .about {
+    background-image: url(../img/logo_gegants_background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
   }
 }
 
