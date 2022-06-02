@@ -548,3 +548,23 @@ footer .social-link:hover {
     margin-bottom: 10px;
   }
 }
+
+/* top button */
+
+#top-button {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 12px;
+  border-radius: 2px;
+  font-size: 18px;
+  background-color: rgba(34, 34, 34, 0.5);
+  transition: all 0.4s;
+  color: white;
+  line-height: 1;
+}
