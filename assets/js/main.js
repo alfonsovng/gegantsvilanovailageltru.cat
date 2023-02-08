@@ -64,17 +64,6 @@
 
 })()
 
-/* Función de copiar cuando se hace click */
-function copy(text){
-  var inp =document.createElement('input');
-  document.body.appendChild(inp)
-  inp.value = text
-  inp.select();
-  document.execCommand('copy',false);
-  inp.remove();
-  alert("S'ha copiat " + text + " al porta-retalls")
-}
-
 /* Botón de TOP: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top */
 //Get the button
 var top_button = document.getElementById("top-button");
